@@ -1,0 +1,6 @@
+Data scrapped from youtube was not ready for any processing as per my requirements so i had to do some changes to it.
+
+There will be several columns in the extracted data but for this analysis i only wanted a unique id for channel which was there link in data.
+So i just kept the channel links and featured and recommended video links and deleted the rest columns. 
+Now we just have two columns one with channel link ids and other with video links. Now renaim these columns as source and target with souurce being channel ids and target being video links.
+Add a new columns as link and add all entry as 1. This is important and a specified step for gephi format.
